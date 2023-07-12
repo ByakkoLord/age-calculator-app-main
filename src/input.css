@@ -17,4 +17,8 @@
     .customleft1{
         left: 87.5%;
     }
+
+    .unclickable{
+        pointer-events: none;
+    }
 }
