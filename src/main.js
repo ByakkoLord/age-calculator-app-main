@@ -20,7 +20,23 @@ button.addEventListener('click', () =>{
         resYear.textContent = resultY
         resMonth.textContent = resultM
         resDay.textContent = resultD
-        
+
+        button.classList.toggle('rotate-180')
+
+        activate = true
+    }
+    else{
+        resYear.textContent = '- -'
+        resMonth.textContent = '- -'
+        resDay.textContent = '- -'
+
+        year.value = ''
+        month.value = ''
+        day.value = ''
+
+        button.classList.toggle('rotate-180')
+
+        activate = false
     }
 })
 
